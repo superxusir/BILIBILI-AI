@@ -64,7 +64,7 @@ jobs:
         Ray_Serilog__WriteTo__5__Args__webHookUrl: ${{secrets.PUSHDINGURL}} # 钉钉
         Ray_Serilog__WriteTo__5__Args__containsTrigger: ${{secrets.PUSHDINGTRIGGER}}
         Ray_Serilog__WriteTo__5__Args__restrictedToMinimumLevel: ${{secrets.PUSHDINGLEVEL}}
-        Ray_Serilog__WriteTo__6__Args__scKey: SCT170125TwfsVxCFiw7TcWooSAL09fvGB # Server酱
+        Ray_Serilog__WriteTo__6__Args__scKey: SCT170246TAzvRIaIa2kO4uRnni1j82yvT # Server酱
         Ray_Serilog__WriteTo__6__Args__containsTrigger: ${{secrets.PUSHSERVERTRIGGER}}
         Ray_Serilog__WriteTo__6__Args__restrictedToMinimumLevel: ${{secrets.PUSHSERVERLEVEL}}
         Ray_Serilog__WriteTo__7__Args__sKey: ${{secrets.PUSHSERVERLEVEL}} # 酷推
